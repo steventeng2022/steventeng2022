@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @steventeng2022
 - 👀 I’m interested in making a video
-- 🌱 I’m currently learning at Dong Shan High School
+- 🌱 I’m currently learning in High School
 - 💞️ I’m looking to collaborate on programming or video creating
 - 📫 How to reach me contact me at steventeng2022@gmail.com
 
