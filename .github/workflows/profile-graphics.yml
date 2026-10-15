@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
-      contents: write
+      contents: read
     steps:
       - name: Generate blue contribution snakes
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
@@ -39,11 +39,31 @@ jobs:
           token: ${{ github.token }}
           theme: nord
           max-rows: 1
-          max-cols: -1
           margin-width: 9
           margin-height: 16
           no-background: false
           no-frame: true
+
+      - name: Upload generated SVGs
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: profile-graphics
+          path: dist/*.svg
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    needs: generate
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Download generated SVGs
+        uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0 # v5
+        with:
+          name: profile-graphics
+          path: dist
 
       - name: Publish graphics to output branch
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
