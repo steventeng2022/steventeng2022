@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/profile-graphics.yml"
+      - "scripts/profile-trophies.cjs"
 
 permissions:
   contents: read
@@ -23,6 +24,10 @@ jobs:
     permissions:
       contents: read
     steps:
+      - name: Check out profile source
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
       - name: Generate blue contribution snakes
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
@@ -32,17 +37,11 @@ jobs:
             dist/snake-light.svg?color_snake=#326da2&color_dots=#ebedf0,#c6ddf0,#8fbcdf,#438bd0,#244c70
 
       - name: Generate Nord trophy cards
-        uses: Erik-Donath/github-profile-trophy@eb0893b31de06841663555d10aa43eb7cf27952f
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
         with:
-          username: ${{ github.repository_owner }}
-          file: dist/trophy.svg
-          token: ${{ github.token }}
-          theme: nord
-          max-rows: 1
-          margin-width: 9
-          margin-height: 16
-          no-background: false
-          no-frame: true
+          script: |
+            const render = require('./scripts/profile-trophies.cjs');
+            await render({ github, context });
 
       - name: Upload generated SVGs
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
