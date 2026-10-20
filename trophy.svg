@@ -34,9 +34,9 @@
         <path d="M43 65C32 65 26 61 24 55C31 55 35 57 36 61C39 60 42 62 43 65ZM72 65C83 65 89 61 91 55C84 55 80 57 79 61C76 60 73 62 72 65Z"/>
       </g>
       <text x="57.5" y="85" fill="#eceff4" font-size="9" font-weight="700">Ultra Committer</text>
-      <text x="57.5" y="98" fill="#eceff4" font-size="10" font-weight="700">666pt</text>
+      <text x="57.5" y="98" fill="#eceff4" font-size="10" font-weight="700">684pt</text>
       <rect x="14" y="104" width="87" height="3" fill="#434c5e"/>
-      <rect x="14" y="104" width="28.88" height="3" fill="#81a1c1"/>
+      <rect x="14" y="104" width="32.02" height="3" fill="#81a1c1"/>
     </g><g transform="translate(248,0)">
       <rect width="115" height="115" rx="4" fill="#2e3440"/>
       <text x="57.5" y="17" fill="#81a1c1" font-size="12" font-weight="700">Stars</text>
@@ -106,9 +106,9 @@
         <path d="M43 65C32 65 26 61 24 55C31 55 35 57 36 61C39 60 42 62 43 65ZM72 65C83 65 89 61 91 55C84 55 80 57 79 61C76 60 73 62 72 65Z"/>
       </g>
       <text x="57.5" y="85" fill="#eceff4" font-size="9" font-weight="700">Hyper Puller</text>
-      <text x="57.5" y="98" fill="#eceff4" font-size="10" font-weight="700">87pt</text>
+      <text x="57.5" y="98" fill="#eceff4" font-size="10" font-weight="700">95pt</text>
       <rect x="14" y="104" width="87" height="3" fill="#434c5e"/>
-      <rect x="14" y="104" width="64.38" height="3" fill="#81a1c1"/>
+      <rect x="14" y="104" width="78.30" height="3" fill="#81a1c1"/>
     </g><g transform="translate(744,0)">
       <rect width="115" height="115" rx="4" fill="#2e3440"/>
       <text x="57.5" y="17" fill="#81a1c1" font-size="12" font-weight="700">Repositories</text>
