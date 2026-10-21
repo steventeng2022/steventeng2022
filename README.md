@@ -29,7 +29,7 @@ My interests span **software engineering, artificial intelligence, and cybersecu
 
 ## Now
 
-- 🛡️ Preparing for **金盾獎資訊安全競賽**, focusing on Web Security, Reverse Engineering, Pwn, Cryptography, and Forensics.
+- 🛡️ Preparing for **資安全競賽**, focusing on Web Security, Reverse Engineering, Pwn, Cryptography, and Forensics.
 - 🧩 Practicing C++ and working through [TOI problems](https://github.com/steventeng2022/coding-practice).
 - 🧠 Studying machine learning, model behavior, and how to design and evaluate experiments.
 - 🛠️ Continuing to build and maintain useful applications, including [my personal website](https://steventeng.uk/).
