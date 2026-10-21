@@ -21,7 +21,7 @@ My interests span **software engineering, artificial intelligence, and cybersecu
 
 我目前就讀臺北市高中，具備系統設計、部署與維護經驗。個人開發 Steven Personal Website 與社群小幫手，並共同參與 itouOJ Online Judge、YetAnotherBusApp。
 
-研究方面，我以 MNIST 與 MLP 探討隨機影像雜訊對模型輸出的影響，接觸實驗設計與統計檢定。曾參與 Futuremode Hackathon、SITCON Hackathon，目前準備金盾獎資訊安全競賽，持續學習 Web Security、Reverse Engineering、Pwn、Cryptography 與 Forensics。未來希望在大學深入資訊工程、人工智慧與資訊安全。
+研究方面，我以 MNIST 與 MLP 探討隨機影像雜訊對模型輸出的影響，接觸實驗設計與統計檢定。曾參與 Futuremode Hackathon、SITCON Hackathon，目前準備資安相關競賽，持續學習 Web Security、Reverse Engineering、Pwn、Cryptography 與 Forensics。未來希望在大學深入資訊工程、人工智慧與資訊安全。
 
 </details>
 
@@ -29,7 +29,7 @@ My interests span **software engineering, artificial intelligence, and cybersecu
 
 ## Now
 
-- 🛡️ Preparing for **資安全競賽**, focusing on Web Security, Reverse Engineering, Pwn, Cryptography, and Forensics.
+- 🛡️ Preparing for **資安全相關競賽**, focusing on Web Security, Reverse Engineering, Pwn, Cryptography, and Forensics.
 - 🧩 Practicing C++ and working through [TOI problems](https://github.com/steventeng2022/coding-practice).
 - 🧠 Studying machine learning, model behavior, and how to design and evaluate experiments.
 - 🛠️ Continuing to build and maintain useful applications, including [my personal website](https://steventeng.uk/).
@@ -51,8 +51,8 @@ My interests span **software engineering, artificial intelligence, and cybersecu
 
 ## Hackathons & Security Learning
 
-**Participated in:** Futuremode Hackathon · SITCON Hackathon  
-**Preparing for:** 金盾獎資訊安全競賽
+**Participated in:** multiple hackathons
+**Preparing for:** CTF
 
 My current security learning areas are **Web Security**, **Reverse Engineering**, **Pwn**, **Cryptography**, and **Forensics**.
 
