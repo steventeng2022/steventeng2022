@@ -7,7 +7,7 @@
 
 ## About
 
-I'm **Steven / @steventeng2022**, currently studying at **臺北市立育成高級中學**. I build web applications, automation tools, and mobile projects, with hands-on experience in **system design, deployment, and maintenance**.
+I'm **Steven / @steventeng2022**, currently studying at **High School**. I build web applications, automation tools, and mobile projects, with hands-on experience in **system design, deployment, and maintenance**.
 
 My interests span **software engineering, artificial intelligence, and cybersecurity**. I enjoy turning everyday needs into working systems, learning through research and collaboration, and creating videos along the way. I hope to study computer science, AI, and information security more deeply at university.
 
