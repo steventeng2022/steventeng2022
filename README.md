@@ -19,7 +19,7 @@ My interests span **software engineering, artificial intelligence, and cybersecu
 <details>
 <summary><b>中文簡介</b></summary>
 
-我目前就讀臺北市立育成高級中學，具備系統設計、部署與維護經驗。個人開發 Steven Personal Website 與社群小幫手，並共同參與 itouOJ Online Judge、YetAnotherBusApp。
+我目前就讀臺北市高中，具備系統設計、部署與維護經驗。個人開發 Steven Personal Website 與社群小幫手，並共同參與 itouOJ Online Judge、YetAnotherBusApp。
 
 研究方面，我以 MNIST 與 MLP 探討隨機影像雜訊對模型輸出的影響，接觸實驗設計與統計檢定。曾參與 Futuremode Hackathon、SITCON Hackathon，目前準備金盾獎資訊安全競賽，持續學習 Web Security、Reverse Engineering、Pwn、Cryptography 與 Forensics。未來希望在大學深入資訊工程、人工智慧與資訊安全。
 
