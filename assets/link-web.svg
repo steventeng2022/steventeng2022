@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="38" viewBox="0 0 1200 38" role="img" aria-label="web: steventeng.uk">
+<style>.m{font-family:Consolas,'Liberation Mono',Menlo,monospace}.c{animation:b 1.2s steps(2,end) infinite}@keyframes b{50%{opacity:0}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect width="1200" height="38" rx="6" fill="#0d1117"/>
+<text class="m" x="16" y="25" font-size="17"><tspan fill="#8fbcdf">$ </tspan><tspan fill="#d8dee9">web&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill="#8fbcdf">steventeng.uk</tspan><tspan fill="#7e8fa4">   # projects &amp; notes</tspan><tspan class="c" fill="#8fbcdf"> ▌</tspan></text>
+</svg>
