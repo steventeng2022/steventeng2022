@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Steven — Developer, Video Creator, Student</title>
+<desc id="desc">Keep learning. Keep building. Keep creating. An animated blue terminal banner for steventeng2022.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#162334"/></linearGradient>
+  <linearGradient id="accent"><stop stop-color="#8fbcdf"/><stop offset="1" stop-color="#b4a1ef"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#8fbcdf" stroke-opacity=".055"/></pattern>
+  <clipPath id="frame"><rect x="1" y="1" width="1198" height="358" rx="18"/></clipPath>
+  <style>
+    .mono{font-family:Consolas,'Liberation Mono',Menlo,monospace}
+    .sans{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+    .orbit{transform-origin:117px 157px;animation:spin 36s linear infinite}
+    .cursor{animation:blink 1.2s steps(2,end) infinite}
+    .pulse{animation:pulse 3s ease-in-out infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes blink{50%{opacity:0}}
+    @keyframes pulse{50%{opacity:.35}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+</defs>
+<g clip-path="url(#frame)">
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <path d="M0 319H1200" stroke="#8fbcdf" stroke-opacity=".15"/>
+  <circle cx="1100" cy="355" r="260" fill="#8fbcdf" fill-opacity=".025"/>
+  <circle cx="1100" cy="355" r="210" fill="none" stroke="#8fbcdf" stroke-opacity=".08"/>
+  <text class="mono" x="42" y="39" fill="#81a1c1" font-size="13">$ open ~/steventeng2022</text>
+  <circle cx="117" cy="157" r="76" fill="none" stroke="#81a1c1" stroke-opacity=".3"/>
+  <circle class="orbit" cx="117" cy="157" r="82" fill="none" stroke="#b4a1ef" stroke-width="2" stroke-dasharray="4 14" opacity=".65"/>
+  <circle cx="117" cy="157" r="65" fill="#1c2b3c" stroke="#8fbcdf" stroke-width="2"/>
+  <text class="sans" x="117" y="181" text-anchor="middle" font-size="76" font-weight="700" fill="url(#accent)">S</text>
+  <text class="sans" x="227" y="153" fill="#eceff4" font-size="67" font-weight="700" letter-spacing="-2">Steven</text>
+  <text class="mono" x="231" y="193" fill="#8fbcdf" font-size="20">@steventeng2022</text>
+  <text class="sans" x="231" y="230" fill="#c4ccd7" font-size="18">Developer  /  Video Creator  /  Student</text>
+  <rect x="750" y="72" width="408" height="200" rx="11" fill="#0d1117" stroke="#344457"/>
+  <path d="M750 108H1158" stroke="#344457"/>
+  <circle cx="771" cy="90" r="4.5" fill="#bf616a"/><circle cx="787" cy="90" r="4.5" fill="#ebcb8b"/><circle cx="803" cy="90" r="4.5" fill="#a3be8c"/>
+  <text class="mono" x="835" y="95" fill="#7e8fa4" font-size="12">profile.js</text>
+  <g class="mono" font-size="15" fill="#d8dee9">
+    <text x="771" y="138"><tspan fill="#b4a1ef">const</tspan> steven = {</text>
+    <text x="789" y="168">focus: [<tspan fill="#a3be8c">"code"</tspan>, <tspan fill="#a3be8c">"video"</tspan>],</text>
+    <text x="789" y="198">mindset: <tspan fill="#a3be8c">"keep learning"</tspan></text>
+    <text x="771" y="228">};<tspan class="cursor" fill="#8fbcdf"> ▌</tspan></text>
+    <text x="771" y="253" fill="#7e8fa4" font-size="12">// one idea at a time</text>
+  </g>
+  <text class="mono" x="42" y="298" fill="#d8dee9" font-size="17">Keep learning. Keep building. Keep creating.</text>
+  <circle class="pulse" cx="50" cy="341" r="4" fill="#a3be8c"/>
+  <text class="mono" x="64" y="345" fill="#9aa9bc" font-size="12">OPEN TO CODE &amp; VIDEO COLLABORATIONS</text>
+  <text class="mono" x="1158" y="345" text-anchor="end" fill="#81a1c1" font-size="12">steventeng.uk</text>
+</g>
+<rect x="1" y="1" width="1198" height="358" rx="18" fill="none" stroke="#344457"/>
+</svg>
