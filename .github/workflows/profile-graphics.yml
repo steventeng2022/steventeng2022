@@ -43,6 +43,18 @@ jobs:
             const render = require('./scripts/profile-trophies.cjs');
             await render({ github, context });
 
+      - name: Generate 3D contribution graphs
+        uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Collect 3D graphics
+        shell: bash
+        run: |
+          cp profile-3d-contrib/profile-night-rainbow.svg dist/contrib-3d-dark.svg
+          cp profile-3d-contrib/profile-green-animate.svg dist/contrib-3d-light.svg
+
       - name: Upload generated SVGs
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
@@ -78,7 +90,7 @@ jobs:
             } catch (error) {
               if (error.status !== 404) throw error;
             }
-            const paths = ['snake-dark.svg', 'snake-light.svg', 'trophy.svg'];
+            const paths = ['snake-dark.svg', 'snake-light.svg', 'trophy.svg', 'contrib-3d-dark.svg', 'contrib-3d-light.svg'];
             const tree = [];
             for (const path of paths) {
               const content = await fs.readFile('dist/' + path, 'utf8');
